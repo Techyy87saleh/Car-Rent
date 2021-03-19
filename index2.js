@@ -1,0 +1,14 @@
+$(document).ready(function(){
+$("input").click(function(){
+$("#text1").css("background-color","#0fbcf9");
+});
+$("input").click(function(){
+    $("#text2").css("background-color","#808e9b");
+});
+$("input").click(function(){
+    $("#digit").css("background-color","#3c40c6");
+ });
+ $("button").click(function(){
+    $("#btn").css("background-color","#e15f41");
+});
+});
